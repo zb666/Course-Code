@@ -7,9 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-cloud-user-service" />
-        <module name="spring-cloud-order-service" />
         <module name="config-server" />
         <module name="spring-boot-starter" />
+        <module name="zookeeper-demo" />
+        <module name="spring-cloud-order-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +18,7 @@
       <module name="spring-boot-starter" target="1.5" />
       <module name="spring-cloud-order-service" target="1.8" />
       <module name="spring-cloud-user-service" target="1.8" />
+      <module name="zookeeper-demo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
