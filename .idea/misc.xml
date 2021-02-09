@@ -35,6 +35,7 @@
         <option value="$PROJECT_DIR$/spring-cloud-order-service/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-user-service/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
       </list>
     </option>
   </component>

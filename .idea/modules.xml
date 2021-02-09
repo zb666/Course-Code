@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Course-Code.iml" filepath="$PROJECT_DIR$/.idea/Course-Code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-starter/spring-boot-starter.iml" filepath="$PROJECT_DIR$/spring-boot-starter/spring-boot-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-order-service/spring-cloud-order-service.iml" filepath="$PROJECT_DIR$/spring-cloud-order-service/spring-cloud-order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-user-service/spring-cloud-user-service.iml" filepath="$PROJECT_DIR$/spring-cloud-user-service/spring-cloud-user-service.iml" />
