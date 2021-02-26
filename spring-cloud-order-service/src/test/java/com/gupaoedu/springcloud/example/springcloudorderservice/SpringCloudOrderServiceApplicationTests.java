@@ -8,6 +8,7 @@ class SpringCloudOrderServiceApplicationTests {
 
     @Test
     void contextLoads() {
+        System.out.println("AAAAA");
     }
 
 }

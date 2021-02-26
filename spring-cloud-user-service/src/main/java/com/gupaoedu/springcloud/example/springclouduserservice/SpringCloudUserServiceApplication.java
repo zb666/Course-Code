@@ -2,6 +2,7 @@ package com.gupaoedu.springcloud.example.springclouduserservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 import org.springframework.cloud.netflix.hystrix.EnableHystrix;
@@ -14,6 +15,7 @@ import org.springframework.context.annotation.ComponentScan;
 //@ComponentScan(basePackages = "com.gupaoedu")
 @SpringBootApplication
 @EnableHystrix
+@EnableCaching
 //@RibbonClient(name = "MICRO_SOFT",configuration = ConfigBean.class)
 public class SpringCloudUserServiceApplication {
 

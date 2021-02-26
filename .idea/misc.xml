@@ -37,7 +37,14 @@
         <option value="$PROJECT_DIR$/spring-boot-starter/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/zookeeper-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/Redis-Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/spring-boot-starter/spring-boot-redis/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="8" project-jdk-type="JavaSDK" />

@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class LocalItemController {
 
+
     @RequestMapping("/hi")
     public String hi(){
         return "Say Hi";

@@ -6,6 +6,8 @@ import org.apache.zookeeper.CreateMode;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 public class ZkDemoTest {
 
