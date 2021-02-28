@@ -39,6 +39,8 @@
         <option value="$PROJECT_DIR$/zookeeper-demo/pom.xml" />
         <option value="$PROJECT_DIR$/Redis-Demo/pom.xml" />
         <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boott-rocketmq/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

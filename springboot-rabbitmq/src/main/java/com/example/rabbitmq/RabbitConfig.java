@@ -1,7 +1,9 @@
 package com.example.rabbitmq;
 
+import com.rabbitmq.client.Channel;
 import org.springframework.amqp.core.*;
 import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
+import org.springframework.amqp.rabbit.connection.Connection;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;
 import org.springframework.beans.factory.annotation.Value;
@@ -101,6 +103,10 @@ public class RabbitConfig {
         connectionFactory.setUsername(username);
         connectionFactory.setPassword(password);
         connectionFactory.setVirtualHost("/");
+
+        Connection connection = connectionFactory.createConnection();
+        Channel channel = connection.createChannel(true);
+//        channel.exchangeDeclare();
         return connectionFactory;
     }
 
@@ -109,6 +115,15 @@ public class RabbitConfig {
     public RabbitTemplate rabbitTemplate() {
         RabbitTemplate template = new RabbitTemplate(connectionFactory());
         template.setMessageConverter(new Jackson2JsonMessageConverter());
+
+        //RoutingKey不存在的时候,重发消息
+        template.setMandatory(true);
+        template.setReturnsCallback(new RabbitTemplate.ReturnsCallback() {
+            @Override
+            public void returnedMessage(ReturnedMessage returned) {
+
+            }
+        });
         return template;
     }
 
