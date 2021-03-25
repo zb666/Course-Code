@@ -16,7 +16,7 @@
                 <artifactId>jedis</artifactId>
                 <version>3.2.0</version>
             </dependency>
-
+            原文链接：https://blog.csdn.net/fz505934129/article/details/86663526
             <!-- fastjson -->
             <dependency>
                 <groupId>com.alibaba</groupId>

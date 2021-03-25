@@ -3,9 +3,19 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Course-Code.iml" filepath="$PROJECT_DIR$/.idea/Course-Code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JVM-Course/JVM-Course.iml" filepath="$PROJECT_DIR$/JVM-Course/JVM-Course.iml" />
       <module fileurl="file://$PROJECT_DIR$/Redis-Demo/Redis-Demo.iml" filepath="$PROJECT_DIR$/Redis-Demo/Redis-Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-MVC/Spring-MVC.iml" filepath="$PROJECT_DIR$/Spring-MVC/Spring-MVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/course-mybatis/course-mybatis.iml" filepath="$PROJECT_DIR$/course-mybatis/course-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq/demo.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java8_newapi/java8_newapi.iml" filepath="$PROJECT_DIR$/java8_newapi/java8_newapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/kafka/kafka.iml" filepath="$PROJECT_DIR$/kafka/kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lagou-course/lagou-course.iml" filepath="$PROJECT_DIR$/lagou-course/lagou-course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sharing_demo/sharing_demo.iml" filepath="$PROJECT_DIR$/sharing_demo/sharing_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-interceptor/spring-boot-interceptor.iml" filepath="$PROJECT_DIR$/spring-boot-interceptor/spring-boot-interceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis/spring-boot-mybatis.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis/spring-boot-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-quartz/spring-boot-quartz.iml" filepath="$PROJECT_DIR$/spring-boot-quartz/spring-boot-quartz.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-starter/spring-boot-starter.iml" filepath="$PROJECT_DIR$/spring-boot-starter/spring-boot-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boott-rocketmq/spring-boott-rocketmq.iml" filepath="$PROJECT_DIR$/spring-boott-rocketmq/spring-boott-rocketmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-order-service/spring-cloud-order-service.iml" filepath="$PROJECT_DIR$/spring-cloud-order-service/spring-cloud-order-service.iml" />

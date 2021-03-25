@@ -1,11 +1,10 @@
 package com.example.kafka.producer;
 
-import org.apache.kafka.clients.producer.Callback;
-import org.apache.kafka.clients.producer.Producer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.clients.producer.RecordMetadata;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
+import org.springframework.kafka.support.ProducerListener;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -17,6 +16,14 @@ public class KafkaProducer {
 
     public String send(@RequestParam String msg){
         kafkaTemplate.send("springboottopic", msg);
+
+        kafkaTemplate.setProducerListener(new ProducerListener<String, Object>() {
+            @Override
+            public void onSuccess(ProducerRecord<String, Object> producerRecord, RecordMetadata recordMetadata) {
+
+            }
+        });
+
         return "ok";
     }
 }

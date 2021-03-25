@@ -1,0 +1,22 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: mybatis-demo
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/bod?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root
+
+# mybatis 相关配置
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
+  type-aliases-package: com.demo.demo.entity
+  configuration:
+    map-underscore-to-camel-case: true # 开启命名小写
+
+# eureka.client.service-url.defaultZone=http://localhost:8672/eureka/
+#eureka:
+#  client:
+#    service-url: http://localhost:8672/eureka/

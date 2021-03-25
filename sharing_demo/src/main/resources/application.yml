@@ -1,0 +1,4 @@
+spring:
+  shardingsphere:
+    sharding:
+      master-slave-rules: master0

@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 public class RocketServiceListener {
 
     @Service
-    @RocketMQMessageListener(consumerGroup = "consume-group-1",topic = "rocket-topic-2")
+    @RocketMQMessageListener(consumerGroup = "consume-group-1",topic = "SELF_TEST_TOPIC")
     public class Consumer1 implements RocketMQListener<String>{
 
         @Override
@@ -20,8 +20,10 @@ public class RocketServiceListener {
     }
 
     @Service
-    @RocketMQMessageListener(consumerGroup = "consume-group-2",topic = "rocket-topic-2",
-    selectorExpression = "tag2",
+    @RocketMQMessageListener(
+            consumerGroup = "SELF_TEST_TOPIC",
+            topic = "rocket-topic-2",
+            selectorExpression = "tag2",
             messageModel = MessageModel.BROADCASTING
     )
     public class Consumer2 implements RocketMQListener<String>{

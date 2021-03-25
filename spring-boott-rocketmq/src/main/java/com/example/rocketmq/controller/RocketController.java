@@ -19,7 +19,7 @@ public class RocketController {
     public String rocketSend() {
         LocalDateTime currentTime = LocalDateTime.now();
         //topic和tag 用冒号进行分割
-        rocketMQTemplate.convertAndSend("rocket-topic-2", currentTime.toString());
+        rocketMQTemplate.convertAndSend("SELF_TEST_TOPIC", currentTime.toString());
         return currentTime.toString();
     }
 

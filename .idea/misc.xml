@@ -41,6 +41,15 @@
         <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/kafka/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boott-rocketmq/pom.xml" />
+        <option value="$PROJECT_DIR$/lagou-course/pom.xml" />
+        <option value="$PROJECT_DIR$/sharing_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-quartz/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/course-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/java8_newapi/pom.xml" />
+        <option value="$PROJECT_DIR$/JVM-Course/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

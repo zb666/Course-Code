@@ -8,6 +8,11 @@ public class RocketmqApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(RocketmqApplication.class, args);
+
+        while (true) {
+            GCTest gcTest = new GCTest();
+
+        }
     }
 
 }

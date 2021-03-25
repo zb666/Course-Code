@@ -6,5 +6,5 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
 
 @SpringBootApplication
-public class RedissonProperties {
+public class RedissionProperties {
 }
