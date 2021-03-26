@@ -1,0 +1,16 @@
+server:
+  port: 7000
+spring:
+  application:
+    name: eurake-server
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://localhost:7000/eureka/
+  instance:
+    hostname: localhost
+
+
+

@@ -1,0 +1,12 @@
+server:
+  port: 7006    #指定该provider的端口号
+spring:
+  application:  #指定应用名称
+    name: eureka-provider
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7000/eureka/
+  instance:
+    hostname: localhost
+

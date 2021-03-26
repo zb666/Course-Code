@@ -9,6 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/course-mybatis/course-mybatis.iml" filepath="$PROJECT_DIR$/course-mybatis/course-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq/demo.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-provider/eurek-provider.iml" filepath="$PROJECT_DIR$/eureka-provider/eurek-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-feign-client/eureka-feign-client.iml" filepath="$PROJECT_DIR$/eureka-feign-client/eureka-feign-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-demo/eureka-server-demo.iml" filepath="$PROJECT_DIR$/eureka-server-demo/eureka-server-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/java8_newapi/java8_newapi.iml" filepath="$PROJECT_DIR$/java8_newapi/java8_newapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/kafka/kafka.iml" filepath="$PROJECT_DIR$/kafka/kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/lagou-course/lagou-course.iml" filepath="$PROJECT_DIR$/lagou-course/lagou-course.iml" />
@@ -20,6 +23,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boott-rocketmq/spring-boott-rocketmq.iml" filepath="$PROJECT_DIR$/spring-boott-rocketmq/spring-boott-rocketmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-order-service/spring-cloud-order-service.iml" filepath="$PROJECT_DIR$/spring-cloud-order-service/spring-cloud-order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-user-service/spring-cloud-user-service.iml" filepath="$PROJECT_DIR$/spring-cloud-user-service/spring-cloud-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
       <module fileurl="file://$PROJECT_DIR$/zookeeper-demo/zookeeper-demo.iml" filepath="$PROJECT_DIR$/zookeeper-demo/zookeeper-demo.iml" />
     </modules>
   </component>

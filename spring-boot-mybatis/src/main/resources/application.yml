@@ -17,6 +17,7 @@ mybatis:
     map-underscore-to-camel-case: true # 开启命名小写
 
 # eureka.client.service-url.defaultZone=http://localhost:8672/eureka/
-#eureka:
-#  client:
-#    service-url: http://localhost:8672/eureka/
+
+eureka:
+  client:
+    service-url: http://localhost:7000/eureka/

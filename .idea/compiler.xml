@@ -11,24 +11,34 @@
         <module name="config-server" />
         <module name="zookeeper-demo" />
         <module name="demo" />
+        <module name="eureka-feign-client" />
         <module name="spring-boot-quartz" />
-        <module name="spring-cloud-user-service" />
         <module name="sharing_demo" />
-        <module name="spring-boot-interceptor" />
+        <module name="eureka-server-demo" />
         <module name="lagou-course" />
         <module name="course-mybatis" />
         <module name="java8_newapi" />
+        <module name="spring-boot-interceptor" />
+        <module name="eureka-provider" />
         <module name="JVM-Course" />
-        <module name="spring-cloud-order-service" />
+        <module name="spring-cloud-user-service" />
         <module name="Redis-Demo" />
         <module name="kafka" />
         <module name="spring-boot-mybatis" />
+        <module name="spring-cloud-order-service" />
+        <module name="eurek-provider" />
+        <module name="untitled" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-server" target="1.8" />
       <module name="course-mybatis" target="1.5" />
       <module name="demo" target="1.8" />
+      <module name="eurek-provider" target="1.5" />
+      <module name="eureka-feign-client" target="1.8" />
+      <module name="eureka-provider" target="1.5" />
+      <module name="eureka-server" target="1.8" />
+      <module name="eureka-server-demo" target="1.8" />
       <module name="java8_newapi" target="8" />
       <module name="JVM-Course" target="1.5" />
       <module name="kafka" target="1.8" />
@@ -40,8 +50,10 @@
       <module name="spring-boot-quartz" target="1.8" />
       <module name="spring-boot-starter" target="1.5" />
       <module name="spring-boott-rocketmq" target="1.8" />
+      <module name="spring-cloud-netflix" target="1.8" />
       <module name="spring-cloud-order-service" target="1.8" />
       <module name="spring-cloud-user-service" target="1.8" />
+      <module name="untitled" target="1.5" />
       <module name="zookeeper-demo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
@@ -49,6 +61,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config-server" options="-parameters" />
       <module name="demo" options="-parameters" />
+      <module name="eureka-feign-client" options="-parameters" />
+      <module name="eureka-server-demo" options="-parameters" />
       <module name="kafka" options="-parameters" />
       <module name="sharing_demo" options="-parameters" />
       <module name="spring-boot-interceptor" options="-parameters" />
