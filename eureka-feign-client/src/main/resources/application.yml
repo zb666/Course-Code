@@ -7,9 +7,12 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:7000/eureka/
-
-
-
+feign:
+  compression:
+    request:
+      enabled: true
+    response:
+      enabled: true
 
 
 

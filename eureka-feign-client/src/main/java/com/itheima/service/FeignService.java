@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 //该服务由 eureka-provider微服务提供
 @FeignClient(name = "eureka-provider",
-        url = "http://localhost:7006",
+//        url = "http://localhost:7006",
         configuration = FeignConfig.class,
         fallback = FeignApiFallBack.class)
 public interface FeignService {
