@@ -5,6 +5,7 @@ import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.Date;
+import java.util.List;
 
 //动态代理生成了这个类
 @Repository
@@ -16,4 +17,6 @@ public interface UserMapper {
             @Param("userName") String userName,
             @Param("userAge") Integer userAge,
             @Param("userTime") Date userTime);
+
+    List<UserTestBean> findUserById(@Param(value = "roleId") int roleId);
 }
