@@ -16,6 +16,4 @@ public class EurekaFeignClientApplication {
         SpringApplication.run(EurekaFeignClientApplication.class,args);
     }
 
-
-
 }

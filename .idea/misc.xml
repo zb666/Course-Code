@@ -56,6 +56,9 @@
         <option value="$PROJECT_DIR$/eureka-feign-client/pom.xml" />
         <option value="$PROJECT_DIR$/eurek-provider/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-elastic-job/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-nacos/pom.xml" />
+        <option value="$PROJECT_DIR$/Pattern-Design/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -13,15 +13,18 @@
         <module name="demo" />
         <module name="eureka-feign-client" />
         <module name="spring-boot-quartz" />
+        <module name="spring-cloud-user-service" />
         <module name="sharing_demo" />
         <module name="eureka-server-demo" />
         <module name="lagou-course" />
         <module name="course-mybatis" />
         <module name="java8_newapi" />
         <module name="spring-boot-interceptor" />
+        <module name="springboot-elastic-job" />
         <module name="eureka-provider" />
         <module name="JVM-Course" />
-        <module name="spring-cloud-user-service" />
+        <module name="spring-boot-nacos" />
+        <module name="Pattern-Design" />
         <module name="Redis-Demo" />
         <module name="kafka" />
         <module name="spring-boot-mybatis" />
@@ -36,29 +39,30 @@
       <module name="demo" target="1.8" />
       <module name="eurek-provider" target="1.5" />
       <module name="eureka-feign-client" target="1.8" />
-      <module name="eureka-provider" target="1.5" />
-      <module name="eureka-server" target="1.8" />
       <module name="eureka-server-demo" target="1.8" />
       <module name="java8_newapi" target="8" />
       <module name="JVM-Course" target="1.5" />
       <module name="kafka" target="1.8" />
       <module name="lagou-course" target="1.5" />
-      <module name="Redis-Demo" target="1.5" />
+      <module name="Pattern-Design" target="8" />
+      <module name="Redis-Demo" target="1.8" />
       <module name="sharing_demo" target="1.8" />
       <module name="spring-boot-interceptor" target="1.8" />
       <module name="spring-boot-mybatis" target="1.8" />
+      <module name="spring-boot-nacos" target="1.8" />
       <module name="spring-boot-quartz" target="1.8" />
       <module name="spring-boot-starter" target="1.5" />
       <module name="spring-boott-rocketmq" target="1.8" />
-      <module name="spring-cloud-netflix" target="1.8" />
       <module name="spring-cloud-order-service" target="1.8" />
       <module name="spring-cloud-user-service" target="1.8" />
+      <module name="springboot-elastic-job" target="1.8" />
       <module name="untitled" target="1.5" />
       <module name="zookeeper-demo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Redis-Demo" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="eureka-feign-client" options="-parameters" />
@@ -67,8 +71,10 @@
       <module name="sharing_demo" options="-parameters" />
       <module name="spring-boot-interceptor" options="-parameters" />
       <module name="spring-boot-mybatis" options="-parameters" />
+      <module name="spring-boot-nacos" options="-parameters" />
       <module name="spring-boot-quartz" options="-parameters" />
       <module name="spring-boott-rocketmq" options="-parameters" />
+      <module name="springboot-elastic-job" options="-parameters" />
     </option>
   </component>
 </project>

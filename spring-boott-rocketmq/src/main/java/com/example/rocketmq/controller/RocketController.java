@@ -1,9 +1,9 @@
 package com.example.rocketmq.controller;
 
+import com.example.rocketmq.producer.MessageProduce;
 import org.apache.rocketmq.spring.core.RocketMQTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.support.MessageBuilder;
-import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -14,12 +14,15 @@ public class RocketController {
 
     @Autowired
     private RocketMQTemplate rocketMQTemplate;
+
+    @Autowired
+    private MessageProduce messageProduce;
+
     // 发送给Broker，默认会自动创建topic，topic和tag用冒号分隔
     @GetMapping("/rocket/send")
     public String rocketSend() {
         LocalDateTime currentTime = LocalDateTime.now();
-        //topic和tag 用冒号进行分割
-        rocketMQTemplate.convertAndSend("SELF_TEST_TOPIC", currentTime.toString());
+        rocketMQTemplate.convertAndSend("rocket-topic-2", currentTime.toString());
         return currentTime.toString();
     }
 
@@ -28,8 +31,9 @@ public class RocketController {
     @GetMapping("/rocket/delayMsg/send")
     public String rocketDelayMsgSend() {
         LocalDateTime currentTime = LocalDateTime.now();
-        rocketMQTemplate.syncSend("rocket-topic-2:tag-2", MessageBuilder.withPayload(currentTime.toString()).build(), 2000, 3);
+        rocketMQTemplate.syncSend("rocket-topic-1:tag-2", MessageBuilder.withPayload(currentTime.toString()).build(), 2000, 3);
         return currentTime.toString();
     }
+
 }
 

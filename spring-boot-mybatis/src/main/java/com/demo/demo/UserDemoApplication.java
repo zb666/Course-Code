@@ -16,8 +16,7 @@ import java.util.Date;
 
 @ComponentScan(basePackages = {"com.demo.demo.controller"})
 @SpringBootApplication
-@EnableFeignClients
-@EnableEurekaClient
+//@EnableEurekaClient
 @MapperScan(basePackages = "com.demo.demo.mapper")
 public class UserDemoApplication {
 
