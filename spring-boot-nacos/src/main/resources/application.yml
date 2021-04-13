@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        group: MyGroup
+        cluster-name: SZ

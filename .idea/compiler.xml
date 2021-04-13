@@ -13,23 +13,25 @@
         <module name="demo" />
         <module name="eureka-feign-client" />
         <module name="spring-boot-quartz" />
-        <module name="spring-cloud-user-service" />
         <module name="sharing_demo" />
         <module name="eureka-server-demo" />
         <module name="lagou-course" />
         <module name="course-mybatis" />
+        <module name="spring_transfer_tx" />
         <module name="java8_newapi" />
         <module name="spring-boot-interceptor" />
-        <module name="springboot-elastic-job" />
-        <module name="eureka-provider" />
-        <module name="JVM-Course" />
+        <module name="spring_aop_anno" />
         <module name="spring-boot-nacos" />
+        <module name="JVM-Course" />
+        <module name="spring-cloud-user-service" />
         <module name="Pattern-Design" />
+        <module name="eureka-provider" />
+        <module name="eurek-provider" />
         <module name="Redis-Demo" />
         <module name="kafka" />
         <module name="spring-boot-mybatis" />
         <module name="spring-cloud-order-service" />
-        <module name="eurek-provider" />
+        <module name="springboot-elastic-job" />
         <module name="untitled" />
       </profile>
     </annotationProcessing>
@@ -44,7 +46,7 @@
       <module name="JVM-Course" target="1.5" />
       <module name="kafka" target="1.8" />
       <module name="lagou-course" target="1.5" />
-      <module name="Pattern-Design" target="8" />
+      <module name="Pattern-Design" target="1.5" />
       <module name="Redis-Demo" target="1.8" />
       <module name="sharing_demo" target="1.8" />
       <module name="spring-boot-interceptor" target="1.8" />
@@ -55,6 +57,9 @@
       <module name="spring-boott-rocketmq" target="1.8" />
       <module name="spring-cloud-order-service" target="1.8" />
       <module name="spring-cloud-user-service" target="1.8" />
+      <module name="Spring-Parent" target="1.5" />
+      <module name="spring_aop_anno" target="1.5" />
+      <module name="spring_transfer_tx" target="1.5" />
       <module name="springboot-elastic-job" target="1.8" />
       <module name="untitled" target="1.5" />
       <module name="zookeeper-demo" target="1.5" />

@@ -59,6 +59,7 @@
         <option value="$PROJECT_DIR$/springboot-elastic-job/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-nacos/pom.xml" />
         <option value="$PROJECT_DIR$/Pattern-Design/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Parent/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

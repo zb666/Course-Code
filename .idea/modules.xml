@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/Pattern-Design/Pattern-Design.iml" filepath="$PROJECT_DIR$/Pattern-Design/Pattern-Design.iml" />
       <module fileurl="file://$PROJECT_DIR$/Redis-Demo/Redis-Demo.iml" filepath="$PROJECT_DIR$/Redis-Demo/Redis-Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-MVC/Spring-MVC.iml" filepath="$PROJECT_DIR$/Spring-MVC/Spring-MVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Parent/Spring-Parent.iml" filepath="$PROJECT_DIR$/Spring-Parent/Spring-Parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/course-mybatis/course-mybatis.iml" filepath="$PROJECT_DIR$/course-mybatis/course-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq/demo.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq/demo.iml" />
@@ -25,6 +26,8 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boott-rocketmq/spring-boott-rocketmq.iml" filepath="$PROJECT_DIR$/spring-boott-rocketmq/spring-boott-rocketmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-order-service/spring-cloud-order-service.iml" filepath="$PROJECT_DIR$/spring-cloud-order-service/spring-cloud-order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-user-service/spring-cloud-user-service.iml" filepath="$PROJECT_DIR$/spring-cloud-user-service/spring-cloud-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Parent/spring_aop_anno/spring_aop_anno.iml" filepath="$PROJECT_DIR$/Spring-Parent/spring_aop_anno/spring_aop_anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Parent/spring_transfer_tx/spring_transfer_tx.iml" filepath="$PROJECT_DIR$/Spring-Parent/spring_transfer_tx/spring_transfer_tx.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-elastic-job/springboot-elastic-job.iml" filepath="$PROJECT_DIR$/springboot-elastic-job/springboot-elastic-job.iml" />
       <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
       <module fileurl="file://$PROJECT_DIR$/zookeeper-demo/zookeeper-demo.iml" filepath="$PROJECT_DIR$/zookeeper-demo/zookeeper-demo.iml" />
